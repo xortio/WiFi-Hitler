@@ -20,7 +20,6 @@ a= (socket.gethostbyname(socket.gethostname()))
 g= os.getcwd()
 print('The Name of this user is '+v)
 print('The ip address of this system is '+a)
-print('This file is at '+file_location)
 def wifi_details():
    command_output = subprocess.run(["netsh", "wlan", "show", "profiles"], capture_output = True).stdout.decode()
    profile_names = (re.findall("All User Profile     : (.*)\r", command_output))
