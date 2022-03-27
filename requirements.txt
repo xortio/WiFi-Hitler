@@ -1,0 +1,8 @@
+socket 
+os 
+subprocess
+re 
+ipaddress
+nmap
+winreg
+codecs
